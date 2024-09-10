@@ -1,0 +1,13 @@
+* {
+selected-active-background: #d5c4a1;
+selected-active-foreground: #FBF8ED;
+selected-normal-background: #F1ECDD;
+selected-normal-foreground: #fbf1c7;
+selected-urgent-background: #d5c4a1; //inputs and stuff
+
+background-color: #282828;
+background: rgba(28,28,28,0.8);
+foreground: #fbf1c7;
+border-color: #ebdbb2;
+}
+

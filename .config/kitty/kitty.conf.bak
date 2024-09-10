@@ -1,0 +1,6 @@
+# BEGIN_KITTY_THEME
+# Gruvbox Dark
+include current-theme.conf
+
+font-family BigBlueTermPlus Nerd Font
+# END_KITTY_THEME

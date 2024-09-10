@@ -1,0 +1,83 @@
+/*
+          _                         _    
+__      _| | ___   __ _  ___  _   _| |_  
+\ \ /\ / / |/ _ \ / _` |/ _ \| | | | __| 
+ \ V  V /| | (_) | (_| | (_) | |_| | |_  
+  \_/\_/ |_|\___/ \__, |\___/ \__,_|\__| 
+                  |___/                  
+*/
+
+/*-----------------------------------------------------*/
+* {
+    font-family: 'SF Mono';
+	background-image: none;
+	transition: 20ms;
+	box-shadow: none;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+button {
+	color: #FFFFFF;
+    font-size:28px;
+	background-color: rgba(35, 33, 54, 0.8);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-widthx: 20px;
+	border-width: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:focus,
+button:active,
+button:hover {
+	transition: 20ms;
+	background-color: rgba(235, 188, 186, 0.9);
+}
+
+/* 
+----------------------------------------------------- 
+Buttons
+----------------------------------------------------- 
+*/
+
+#lock {
+	margin: 5px;
+	border-radius: 20px;
+	background-image: image(url("icons/lock.png"));
+}
+
+#logout {
+	margin: 5px;
+	border-radius: 20px;
+	background-image: image(url("icons/logout.png"));
+}
+
+#suspend {
+	margin: 5px;
+	border-radius: 20px;
+	background-image: image(url("icons/suspend.png"));
+}
+
+#hibernate {
+	margin: 5px;
+	border-radius: 20px;
+	background-image: image(url("icons/sleep.png"));
+}
+
+#shutdown {
+	margin: 5px;
+	border-radius: 20px;
+	background-image: image(url("icons/shutdown.png"));
+}
+
+#reboot {
+	margin: 5px;
+	border-radius: 20px;
+	background-image: image(url("icons/reboot.png"));
+}

@@ -1,0 +1,27 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Rofi Config for Google Search) */
+
+@import "~/.config/rofi/config.rasi" 
+
+/* ---- Window ---- */
+window {
+	width: 30%;
+    y-offset: 0px;
+}
+
+/* ---- Inputbar ---- */
+inputbar {
+    enabled: true;
+}
+
+/* ---- Entry ---- */ 
+entry {
+	placeholder: "🔒 Password Search";
+    width: 100%;
+}
+
+listview {
+  columns: 0;
+  lines: 0;
+}
+

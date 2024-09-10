@@ -1,0 +1,10 @@
+@import "~/.config/rofi/master-config.rasi" 
+
+/* ---- Configuration ---- */
+configuration {
+	font: "CozetteVector 14";
+}
+
+element-text {
+    font:	"CozetteVector 11";
+}

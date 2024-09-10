@@ -1,0 +1,44 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### DEFAULT v2 (Laptop)  - Top ### //
+{
+	"include": "~/.config/waybar/modules",
+	"layer": "top",
+	"exclusive": true,
+	"passthrough": false,
+	"position": "top",
+	"spacing": 3,
+	"fixed-center": true,
+	"ipc": true,
+	"margin-top": 0,
+	"margin-left": 0,
+	"margin-right": 0,
+	
+	"modules-left": [
+		"power-profiles-daemon",
+		"group/mobo_drawer",
+		"custom/separator#blank",
+		"group/laptop",
+		"custom/weather",
+		],
+	
+	"modules-center": [
+		"clock",
+		"custom/separator#line",
+		"hyprland/workspaces",	
+		], 
+	
+	"modules-right": [
+		"group/connections",
+		"custom/separator#line",
+		"tray",
+		"mpris",
+    "custom/separator#line",
+		"group/audio",
+		"custom/separator#line",
+    "custom/keyboard",
+		"keyboard-state",
+		"custom/lock",
+		"custom/power",
+		],
+	}

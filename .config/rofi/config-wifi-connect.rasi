@@ -1,0 +1,46 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Main Config - emoji */
+
+@import "~/.config/rofi/config.rasi" 
+
+window {
+    width: 20%;
+}
+
+mainbox {
+	padding:					 0px;
+    enabled:                     true;
+    orientation:                 vertical;
+    children:                    [ "inputbar", "listbox" ];
+    background-color:            transparent;
+}
+
+button {
+    width:                       0%;
+    padding:                     0px;
+    border-radius:               0px;
+    background-color:            @text-selected;
+    text-color:                  @text-color;
+    cursor:                      pointer;
+}
+inputbar {
+    enabled:                     true;
+    padding:                     0px;
+    margin:                      10px;
+    background-color:            transparent;
+    border-radius:               0px;
+    orientation:                 horizontal;
+    children:                    ["entry", "dummy", "mode-switcher" ];
+}
+
+/* ---- Entry ---- */
+entry {
+  width: 100%;
+  placeholder: "🔐 Password:";
+}
+
+/* ---- Listview ---- */
+listview {
+  columns: 1;
+  lines: 1;
+}

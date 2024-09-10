@@ -1,0 +1,22 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Main Config Calculator */
+/* Submitted by: https://github.com/JosephArmas */
+
+@import "~/.config/rofi/config.rasi" 
+
+/* ---- Entry ---- */
+entry {
+  width: 25%;
+  placeholder: "📐 Calculate";
+}
+
+/* ---- Window ---- */
+window {
+    width: 27%;
+}
+
+/* ---- Message ---- */
+textbox {
+    background-color:            @selected;
+    text-color:                  @background;
+}
