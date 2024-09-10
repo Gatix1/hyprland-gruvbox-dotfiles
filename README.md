@@ -1,4 +1,4 @@
-### My gruvbox retro hyprland rice!
+# My gruvbox retro hyprland rice!
 Fonts:
 - BigBlueTerm
 - CozetteVector
